@@ -16,6 +16,7 @@
 		2EAEDAD6207B12D300ECD5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAEDACE207B12D300ECD5EB /* LaunchScreen.storyboard */; };
 		2EAEDAD7207B12D300ECD5EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EAEDAD0207B12D300ECD5EB /* Main.storyboard */; };
 		2EAEDAD8207B12D300ECD5EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EAEDAD2207B12D300ECD5EB /* Info.plist */; };
+		2EAEDADE207B183600ECD5EB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAEDADD207B183600ECD5EB /* TableViewController.m */; };
 		4A34C68F486D65DBB0F408B8 /* libPods-compilations.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABBB85E0ECF2B19CCC5C8089 /* libPods-compilations.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		2EAEDACF207B12D300ECD5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EAEDAD1207B12D300ECD5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EAEDAD2207B12D300ECD5EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EAEDADC207B183600ECD5EB /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2EAEDADD207B183600ECD5EB /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		3188591FF67DB26914FE77CF /* Pods-compilations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compilations.release.xcconfig"; path = "Pods/Target Support Files/Pods-compilations/Pods-compilations.release.xcconfig"; sourceTree = "<group>"; };
 		ABBB85E0ECF2B19CCC5C8089 /* libPods-compilations.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-compilations.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F742DAEFE720ED1D18520194 /* Pods-compilations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-compilations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-compilations/Pods-compilations.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 			children = (
 				2EAEDA96207B080C00ECD5EB /* ViewController.h */,
 				2EAEDA97207B080C00ECD5EB /* ViewController.m */,
+				2EAEDADC207B183600ECD5EB /* TableViewController.h */,
+				2EAEDADD207B183600ECD5EB /* TableViewController.m */,
 				2EAEDAC8207B12D300ECD5EB /* main */,
 				2EAEDACC207B12D300ECD5EB /* configuration */,
 			);
@@ -364,6 +369,7 @@
 				2EAEDAD3207B12D300ECD5EB /* AppDelegate.m in Sources */,
 				2EAEDAD4207B12D300ECD5EB /* main.m in Sources */,
 				2EAEDA98207B080C00ECD5EB /* ViewController.m in Sources */,
+				2EAEDADE207B183600ECD5EB /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
