@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationItem.title = @"TableViewController";
     // Do any additional setup after loading the view.
 }
 
